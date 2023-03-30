@@ -39,7 +39,8 @@ namespace ShoppingOnline
 
         private void CartButton_Click(object sender, EventArgs e)
         {
-
+            ShoppingCart shoppingCart = new ShoppingCart();
+            shoppingCart.ShowDialog();
         }
     }
 }
