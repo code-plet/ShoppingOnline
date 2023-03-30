@@ -33,7 +33,8 @@ namespace ShoppingOnline
 
         private void accountButton_Click(object sender, EventArgs e)
         {
-
+            AccountPage accountPage = new AccountPage();
+            accountPage.ShowDialog();
         }
     }
 }
