@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShoppingOnline
 {
-    public partial class ShoppingOnline : Form
+    public partial class loginForm : Form
     {
-        public ShoppingOnline()
+        public loginForm()
         {
             InitializeComponent();
         }
@@ -68,7 +68,9 @@ namespace ShoppingOnline
         {
             if(usernameTextbox.Text == "giakhanh" && passwordTextBox.Text == "giakhanh")
             {
-
+                MainPage mainPage = new MainPage();
+                this.Hide();
+                mainPage.Show();
             }
             else
             {
