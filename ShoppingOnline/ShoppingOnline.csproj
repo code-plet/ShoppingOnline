@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountPage.Designer.cs">
+      <DependentUpon>AccountPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DetailsPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountPage.resx">
+      <DependentUpon>AccountPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DetailsPage.resx">
       <DependentUpon>DetailsPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shope-logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

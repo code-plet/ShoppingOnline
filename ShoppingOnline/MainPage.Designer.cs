@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "ghế chơi game",
@@ -65,17 +64,18 @@
             "Việt Nam",
             "Gia đình",
             "Chính hãng"}, 4);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.accountButton = new System.Windows.Forms.ToolStripButton();
-            this.CartButton = new System.Windows.Forms.ToolStripButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CartButton = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -105,15 +105,7 @@
             this.accountButton.Name = "accountButton";
             this.accountButton.Size = new System.Drawing.Size(77, 24);
             this.accountButton.Text = "Tài Khoản";
-            // 
-            // CartButton
-            // 
-            this.CartButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.CartButton.Image = ((System.Drawing.Image)(resources.GetObject("CartButton.Image")));
-            this.CartButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CartButton.Name = "CartButton";
-            this.CartButton.Size = new System.Drawing.Size(73, 24);
-            this.CartButton.Text = "Giỏ hàng";
+            this.accountButton.Click += new System.EventHandler(this.accountButton_Click);
             // 
             // splitContainer1
             // 
@@ -132,17 +124,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(943, 443);
             this.splitContainer1.SplitterDistance = 313;
             this.splitContainer1.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::ShoppingOnline.Properties.Resources.shope_logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(313, 443);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // listView1
             // 
@@ -201,6 +182,26 @@
             this.imageList1.Images.SetKeyName(2, "ghedua.jpg");
             this.imageList1.Images.SetKeyName(3, "gheduatrang.jpg");
             this.imageList1.Images.SetKeyName(4, "ghelun.jpg");
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::ShoppingOnline.Properties.Resources.shope_logo1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(313, 443);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // CartButton
+            // 
+            this.CartButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.CartButton.Image = ((System.Drawing.Image)(resources.GetObject("CartButton.Image")));
+            this.CartButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CartButton.Name = "CartButton";
+            this.CartButton.Size = new System.Drawing.Size(73, 24);
+            this.CartButton.Text = "Giỏ hàng";
             // 
             // MainPage
             // 

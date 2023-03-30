@@ -63,6 +63,16 @@ namespace ShoppingOnline.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avatar_icon {
+            get {
+                object obj = ResourceManager.GetObject("avatar icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Big_Shopping_Mall_Icon {
             get {
                 object obj = ResourceManager.GetObject("Big Shopping Mall Icon", resourceCulture);

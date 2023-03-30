@@ -30,5 +30,10 @@ namespace ShoppingOnline
             DetailsPage detailsPage = new DetailsPage(image, subitems);
             detailsPage.ShowDialog();
         }
+
+        private void accountButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
