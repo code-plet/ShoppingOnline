@@ -19,12 +19,16 @@ namespace ShoppingOnline
 
         private void listView1_DoubleClick(object sender, EventArgs e)
         {
+            Image image = imageList1.Images[listView1.SelectedItems[0].Index];
             ListViewItem.ListViewSubItemCollection listViewSubItems = listView1.SelectedItems[0].SubItems;
-            string[] subitems = new string[3];
+            string[] subitems = new string[6];
             for(int i = 0; i < listViewSubItems.Count; i++)
             {
                 subitems[i] = listViewSubItems[i].Text;
             }
+
+            DetailsPage detailsPage = new DetailsPage(image, subitems);
+            detailsPage.ShowDialog();
         }
     }
 }

@@ -34,38 +34,48 @@
             "",
             "ghế chơi game",
             "10000",
-            "Cambuchia"}, 0);
+            "Cambuchia",
+            "Gaming",
+            "Chính hãng"}, 0);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Ghế thấp",
             "2000",
-            "Hàn Quốc"}, 1);
+            "Hàn Quốc",
+            "Thư giãn",
+            "Nhập khẩu"}, 1);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Ghế dựa",
             "7000",
-            "Trung Quốc"}, 2);
+            "Trung Quốc",
+            "Văn Phòng",
+            "Công ty"}, 2);
             System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Ghế dựa trắng",
             "6000",
-            "Trung Quốc"}, 3);
+            "Trung Quốc",
+            "Văn Phòng",
+            "Công ty"}, 3);
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Ghế đẩu",
             "1000",
-            "Việt Nam"}, 4);
+            "Việt Nam",
+            "Gia đình",
+            "Chính hãng"}, 4);
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.accountButton = new System.Windows.Forms.ToolStripButton();
+            this.CartButton = new System.Windows.Forms.ToolStripButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.CartButton = new System.Windows.Forms.ToolStripButton();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -96,6 +106,15 @@
             this.accountButton.Size = new System.Drawing.Size(77, 24);
             this.accountButton.Text = "Tài Khoản";
             // 
+            // CartButton
+            // 
+            this.CartButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.CartButton.Image = ((System.Drawing.Image)(resources.GetObject("CartButton.Image")));
+            this.CartButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CartButton.Name = "CartButton";
+            this.CartButton.Size = new System.Drawing.Size(73, 24);
+            this.CartButton.Text = "Giỏ hàng";
+            // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -125,15 +144,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // CartButton
-            // 
-            this.CartButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.CartButton.Image = ((System.Drawing.Image)(resources.GetObject("CartButton.Image")));
-            this.CartButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CartButton.Name = "CartButton";
-            this.CartButton.Size = new System.Drawing.Size(73, 24);
-            this.CartButton.Text = "Giỏ hàng";
-            // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -162,16 +172,6 @@
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "gamingchair.jpg");
-            this.imageList1.Images.SetKeyName(1, "ghebaby.jpg");
-            this.imageList1.Images.SetKeyName(2, "ghedua.jpg");
-            this.imageList1.Images.SetKeyName(3, "gheduatrang.jpg");
-            this.imageList1.Images.SetKeyName(4, "ghelun.jpg");
-            // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "";
@@ -191,6 +191,16 @@
             // 
             this.columnHeader4.Text = "Nước sản xuất";
             this.columnHeader4.Width = 114;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "gamingchair.jpg");
+            this.imageList1.Images.SetKeyName(1, "ghebaby.jpg");
+            this.imageList1.Images.SetKeyName(2, "ghedua.jpg");
+            this.imageList1.Images.SetKeyName(3, "gheduatrang.jpg");
+            this.imageList1.Images.SetKeyName(4, "ghelun.jpg");
             // 
             // MainPage
             // 
