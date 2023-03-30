@@ -36,5 +36,10 @@ namespace ShoppingOnline
             AccountPage accountPage = new AccountPage();
             accountPage.ShowDialog();
         }
+
+        private void CartButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

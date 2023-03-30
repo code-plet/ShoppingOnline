@@ -202,6 +202,7 @@
             this.CartButton.Name = "CartButton";
             this.CartButton.Size = new System.Drawing.Size(73, 24);
             this.CartButton.Text = "Giỏ hàng";
+            this.CartButton.Click += new System.EventHandler(this.CartButton_Click);
             // 
             // MainPage
             // 
