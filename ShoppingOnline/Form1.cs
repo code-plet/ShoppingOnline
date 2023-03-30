@@ -41,15 +41,39 @@ namespace ShoppingOnline
             {
                 passwordTextBox.Text = "Nhập mật khẩu";
                 passwordTextBox.ForeColor = Color.Gray;
+                passwordTextBox.PasswordChar = '\0';
             }
         }
 
         private void passwordTextBox_Enter(object sender, EventArgs e)
         {
             if (passwordTextBox.Text == "Nhập mật khẩu")
+            {
                 passwordTextBox.Clear();
+                passwordTextBox.PasswordChar = '*';
+                passwordTextBox.ForeColor = Color.Black;
+            }
 
-            passwordTextBox.ForeColor = Color.Black;
+        }
+
+        private void revealPasswordButton_Click(object sender, EventArgs e)
+        {
+            if (passwordTextBox.PasswordChar == '*')
+                passwordTextBox.PasswordChar = '\0';
+            else
+                passwordTextBox.PasswordChar = '*';
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            if(usernameTextbox.Text == "giakhanh" && passwordTextBox.Text == "giakhanh")
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("lỗi đăng nhập");
+            }
         }
     }
 }
