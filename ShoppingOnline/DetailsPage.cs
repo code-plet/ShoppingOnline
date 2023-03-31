@@ -21,7 +21,8 @@ namespace ShoppingOnline
             label8.Text = subitems[3];
             label9.Text = subitems[4];
             label10.Text = subitems[5];
-
+            label11.Text = subitems[6];
+            label13.Text = subitems[7];
         }
 
         private void DetailsPage_Load(object sender, EventArgs e)

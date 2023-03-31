@@ -72,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingCart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShoppingCart.resx">
       <DependentUpon>ShoppingCart.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +145,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\png cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GG icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unknown user icon.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,7 +21,7 @@ namespace ShoppingOnline
         {
             Image image = imageList1.Images[listView1.SelectedItems[0].Index];
             ListViewItem.ListViewSubItemCollection listViewSubItems = listView1.SelectedItems[0].SubItems;
-            string[] subitems = new string[6];
+            string[] subitems = new string[8];
             for(int i = 0; i < listViewSubItems.Count; i++)
             {
                 subitems[i] = listViewSubItems[i].Text;
@@ -41,6 +41,15 @@ namespace ShoppingOnline
         {
             ShoppingCart shoppingCart = new ShoppingCart();
             shoppingCart.ShowDialog();
+        }
+
+        private void listView1_SizeChanged(object sender, EventArgs e)
+        {
+            int columnwidth = listView1.Width / listView1.Columns.Count;
+            for (int i = 0; i < listView1.Columns.Count; i++)
+            {
+                listView1.Columns[i].Width = columnwidth;
+            }
         }
     }
 }

@@ -103,6 +103,26 @@ namespace ShoppingOnline.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap facebook_icon {
+            get {
+                object obj = ResourceManager.GetObject("facebook icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GG_icon {
+            get {
+                object obj = ResourceManager.GetObject("GG icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_cart {
             get {
                 object obj = ResourceManager.GetObject("png cart", resourceCulture);
@@ -126,6 +146,26 @@ namespace ShoppingOnline.Properties {
         internal static System.Drawing.Bitmap shope_logo1 {
             get {
                 object obj = ResourceManager.GetObject("shope-logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Twitter {
+            get {
+                object obj = ResourceManager.GetObject("Twitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unknown_user_icon {
+            get {
+                object obj = ResourceManager.GetObject("unknown user icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
