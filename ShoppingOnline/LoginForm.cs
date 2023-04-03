@@ -58,10 +58,13 @@ namespace ShoppingOnline
 
         private void revealPasswordButton_Click(object sender, EventArgs e)
         {
-            if (passwordTextBox.PasswordChar == '*')
-                passwordTextBox.PasswordChar = '\0';
-            else
-                passwordTextBox.PasswordChar = '*';
+            if(passwordTextBox.Text != "Nhập mật khẩu")
+            {
+                if (passwordTextBox.PasswordChar == '*')
+                    passwordTextBox.PasswordChar = '\0';
+                else
+                    passwordTextBox.PasswordChar = '*';
+            }
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
@@ -82,6 +85,22 @@ namespace ShoppingOnline
         {
             Register register = new Register();
             register.ShowDialog();
+        }
+
+        private void exitLabel_MouseEnter(object sender, EventArgs e)
+        {
+            exitLabel.Font = new Font(exitLabel.Font, FontStyle.Underline);
+        }
+
+        private void exitLabel_MouseLeave(object sender, EventArgs e)
+        {
+            exitLabel.Font = new Font(exitLabel.Font,FontStyle.Bold);
+
+        }
+
+        private void exitLabel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

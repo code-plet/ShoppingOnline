@@ -158,5 +158,23 @@
   <ItemGroup>
     <None Include="Resources\unknown user icon.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTDD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upper-banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTDD1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thegioididong long logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTDD long icon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down arrow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
