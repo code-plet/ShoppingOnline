@@ -176,5 +176,53 @@
   <ItemGroup>
     <None Include="Resources\down arrow.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-iphone-x-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-laptop-computer-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-laptop-computer-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-laptop-computer-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ipad-mini-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-headset-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-smart-watch-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-watches-front-view-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-iphone-se-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-workstation-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-searching-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banner-Big-TGDD-80-1920x450.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dien-thoai-120x120-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group-8-120x120-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-TGDDD-90x90-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame-46604-1-120x120-2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
