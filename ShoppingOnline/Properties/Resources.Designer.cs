@@ -293,9 +293,99 @@ namespace ShoppingOnline.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iphone_11_trang_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("iphone-11-trang-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iphone_14_pro_max_vang_thumb_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("iphone-14-pro-max-vang-thumb-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iphone_14_pro_tim_thumb_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("iphone-14-pro-tim-thumb-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lightning_ic {
+            get {
+                object obj = ResourceManager.GetObject("lightning-ic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oppo_reno8t_vang1_thumb_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("oppo-reno8t-vang1-thumb-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_cart {
             get {
                 object obj = ResourceManager.GetObject("png cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap realme_c35_vang_thumb_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("realme-c35-vang-thumb-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Samsung_Galaxy_S21_FE_vang_1_2_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("Samsung-Galaxy-S21-FE-vang-1-2-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap samsung_galaxy_s23_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("samsung-galaxy-s23-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap samsung_galaxy_s23_ultra_1_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("samsung-galaxy-s23-ultra-1-600x600", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +476,26 @@ namespace ShoppingOnline.Properties {
         internal static System.Drawing.Bitmap upper_banner {
             get {
                 object obj = ResourceManager.GetObject("upper-banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vivo_y35_thumb_den_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("vivo-y35-thumb-den-600x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xiaomi_redmi_12c_grey_thumb_600x600 {
+            get {
+                object obj = ResourceManager.GetObject("xiaomi-redmi-12c-grey-thumb-600x600", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

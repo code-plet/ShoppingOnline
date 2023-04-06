@@ -58,6 +58,7 @@
     <Compile Include="DetailsPage.Designer.cs">
       <DependentUpon>DetailsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phone.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -223,6 +224,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Frame-46604-1-120x120-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightning-ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\iphone-14-pro-max-vang-thumb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\iphone-14-pro-tim-thumb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\Samsung-Galaxy-S21-FE-vang-1-2-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\samsung-galaxy-s23-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\xiaomi-redmi-12c-grey-thumb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\iphone-11-trang-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\oppo-reno8t-vang1-thumb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\realme-c35-vang-thumb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\samsung-galaxy-s23-ultra-1-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phone images\vivo-y35-thumb-den-600x600.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

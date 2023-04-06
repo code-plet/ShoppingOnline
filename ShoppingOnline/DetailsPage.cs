@@ -12,22 +12,25 @@ namespace ShoppingOnline
 {
     public partial class DetailsPage : Form
     {
-        public DetailsPage(Image image, string[] subitems)
+        public DetailsPage(Phone phone)
         {
             InitializeComponent();
-            pictureBox1.Image = image;
-            label6.Text = subitems[1];
-            label7.Text = subitems[2];
-            label8.Text = subitems[3];
-            label9.Text = subitems[4];
-            label10.Text = subitems[5];
-            label11.Text = subitems[6];
-            label13.Text = subitems[7];
+
+            pictureBox1.Image = phone.Image;
+            label9.Text = phone.Name;
+            label10.Text = phone.Price;
+            label11.Text = phone.details[0];
+            label12.Text = phone.details[1];
+            label13.Text = phone.details[2];
+            label14.Text = phone.details[3];
+            label15.Text = phone.details[4];
+            label18.Text = phone.details[5];
+
         }
 
         private void DetailsPage_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
